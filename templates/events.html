@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>
+                id
+            </th>
+            <th>
+                value
+            </th>
+            <th>
+                type
+            </th>
+        </tr>
+        {% for data in values%}
+        </tr>
+            <td>
+                {{ data.id }}
+            </td>
+            <td>
+                {{ data.value }}
+            </td>
+            <td>
+                {{ data.type }}
+            </td>
+        <tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
